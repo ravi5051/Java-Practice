@@ -1,3 +1,4 @@
+// 3. WAP to find the second largest and smallest element in an array.
 public class SecondMinAndMax {
     public static void main(String... args) {
         int arr[] = new int[] { 56, 87, 10, 97, 56, 23, 32, 89, 69 };
