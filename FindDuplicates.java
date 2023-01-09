@@ -1,3 +1,4 @@
+
 //5. WAP to find the duplicate values of an array of integer values.
 //6. WAP to find the duplicate values of an array of String values.
 import java.util.*;
@@ -11,7 +12,7 @@ public class FindDuplicates {
     }
 
     public static void findDuplicateIntegers(int[] arr) {
-        Arrays.sort(arr); //sorting the array
+        Arrays.sort(arr); // sorting the array
         if (arr.length < 2)
             return;
         for (int i = 1; i < arr.length - 1; i++) {
